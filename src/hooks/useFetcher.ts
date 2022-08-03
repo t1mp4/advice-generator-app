@@ -18,7 +18,7 @@ export const useFetcher = <DataType>(url: string) => {
     fetchData()
       .then(newData => setData(newData))
       .catch(error => setError('An error occured while fetching the data'));
-  }, [fetchData]);
+  }, []);
 
   return { data, setData, error, setError, fetchData };
 };
