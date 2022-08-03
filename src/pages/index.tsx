@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           key={data?.slip.id}
           tabIndex={0}
         >
-          "{data?.slip.advice || <Skeleton count={3} />}"
+          &quot;{data?.slip.advice || <Skeleton count={3} />}&quot;
         </blockquote>
         <Divider />
         <button
