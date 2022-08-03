@@ -7,4 +7,8 @@
   html {
     @apply font-manrope font-base text-cyan-light bg-blue-dark;
   }
+
+  body {
+    @apply min-h-screen desktop:flex desktop:justify-center desktop:items-center;
+  }
 }

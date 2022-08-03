@@ -18,7 +18,20 @@ module.exports = {
       'blue-grayish-dark': 'hsl(217, 19%, 24%)',
       'blue-dark': 'hsl(218, 23%, 16%)',
     },
-    extend: {},
+    screens: {
+      desktop: '650px',
+    },
+    extend: {
+      animation: {
+        'fade-in': 'fade-in 2s',
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
+    },
   },
   plugins: [],
 };
