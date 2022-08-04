@@ -59,13 +59,14 @@ const Home: NextPage = () => {
           onClick={handleClick}
           className="mt-6 desktop:mt-7 grid place-items-center absolute left-1/2 -translate-x-1/2 bottom-[-2rem] w-16 h-16 bg-green-neon rounded-[50%] hover:shadow-[0_0_20px_3px_hsl(150,100%,66%)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-cyan-light"
           aria-controls="advice"
+          aria-label="Get new advice"
         >
           <DiceIcon />
         </button>
       </div>
 
       <a
-        href="https://www.github.com"
+        href="https://github.com/timothytampold/advice-generator-app.git"
         className="absolute left-2 bottom-2 hover:text-green-neon focus-visible:outline focus-visible:outline-cyan-light"
       >
         GitHub
